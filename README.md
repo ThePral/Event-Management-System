@@ -99,3 +99,8 @@ An Event Management System that facilitates managing various types of events lik
 
 - [ThePral](https://www.github.com/ThePral)
 - [AsaliMasali](https://www.github.com/Asalimasali)
+
+
+![Logo](profile.png)
+
+
