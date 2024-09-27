@@ -73,7 +73,7 @@ To get started with the Event Management System locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/event-management-system.git
+   git clone https://github.com/ThePral/Event-Management-System.git
    cd event-management-system
    ```
 2. Install dependencies:
