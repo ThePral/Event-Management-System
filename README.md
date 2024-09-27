@@ -101,6 +101,6 @@ An Event Management System that facilitates managing various types of events lik
 - [AsaliMasali](https://www.github.com/Asalimasali)
 
 
-![Logo](profile.png)
+![Logo](readme.png)
 
 
