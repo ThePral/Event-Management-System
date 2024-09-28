@@ -25,7 +25,7 @@ If you discover a security vulnerability, please **do not** create a public issu
 
 If you’ve tried the above steps and still need help, you can contact us directly:
 - **Email**: [pouryaalizadeh97@gmail.com](mailto:pouryaalizadeh97@gmail.com)
-- **Phone**: +98 901 347 8966
+
 
 We strive to respond to inquiries within 48 hours.
 
