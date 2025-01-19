@@ -1,0 +1,166 @@
+
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+.Reset-body{
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: rgb(66, 66, 66); */
+    background-image: url('6.png');
+    padding: 30px;
+    overflow-x: hidden;
+}
+.upload-label {
+    cursor: pointer;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+    
+.upload-label img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    background-color: #e9ecef;
+    border-radius: 50%;
+    display: block;
+}
+    
+.Reset-container{
+    position: relative;
+    max-width: 850px;
+    width: 100%;
+    /* background: #fff; */
+    background-color: #ECE3CE;
+    padding: 40px 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    perspective: 2700px;
+    /* margin-top: 150px; */
+
+}
+
+.Reset-container .Reset-forms{
+    height: 100%;
+    width: 100%;
+    background: #ECE3CE;
+}
+.Reset-container .Reset-form-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Reset-form-content .login-form,
+.Reset-form-content .signup-form{
+    width: calc(100% - 25px);
+}
+
+.Reset-forms .Reset-form-content .input-boxes{
+    margin-top: 30px;
+}
+.Reset-forms .Reset-form-content .input-box{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+    justify-content: center;
+    /* background-color: brown; */
+}
+.Reset-form-content .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    background-color: #ECE3CE;
+    /* background-color: blue; */
+}
+.Reset-form-content .input-box input:focus,
+.Reset-form-content .input-box input:valid{
+    border-color: rgb(66, 66, 66);
+}
+/* .Reset-form-content .input-box i{
+    position: relative;
+    color: rgb(66, 66, 66);
+    font-size: 17px;
+    padding-left: 10px;
+} */
+.Reset-forms .Reset-form-content .text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+/* .Reset-forms .Reset-form-content .text a{
+    text-decoration: none;
+} */
+.Reset-forms .Reset-form-content .button{
+    color: #fff;
+    margin-top: 40px;
+}
+.Reset-forms .Reset-form-content .button input{
+    color: #fff;
+    background: #5F6F65;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.Reset-forms .Reset-form-content .button input:hover{
+    background: rgb(0,0,0);
+}
+
+
+/* @media (max-width: 730px) {
+    .Reset-container .cover{
+    display: none;
+    }
+    .Reset-form-content .login-form,
+    .Reset-form-content .signup-form{
+    width: 100%;
+    }
+    .Reset-form-content .signup-form{
+    display: none;
+    }
+    .Reset-container #flip:checked ~ .Reset-forms .signup-form{
+    display: block;
+    }
+    .Reset-container #flip:checked ~ .Reset-forms .login-form{
+    display: none;
+    }
+} */
+
+@media (max-width: 576px) {
+    .Reset-container {
+        padding: 10px;
+    }
+    .upload-label img {
+        width: 120px; 
+        height: 120px;
+    }
+    .Reset-form-content .input-box input {
+        font-size: 14px; 
+    }
+    }
+    

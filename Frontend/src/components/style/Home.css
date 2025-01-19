@@ -1,0 +1,148 @@
+.home-body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #5F6F65;
+}
+
+/* .header-leaves {
+    background-image: url('header.png');
+    background-repeat: no-repeat;
+    background-position: right top; 
+    background-size: 400px; 
+    overflow: visible;
+} */
+.sage-text{
+    color: #5F6F65;
+}
+
+.home-header{
+    background-color: #5F6F65;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    color: #ECE3CE;
+}
+
+
+.hero {
+    background-color: #ECE3CE;
+    padding: 50px 0;
+}
+
+.hero img {
+    /* max-width: 100%; */
+    /* height: auto; */
+    background: url('event-image.jpg');
+
+}
+
+.hero .btn {
+    background-color: #5F6F65;
+    color: white;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .hero .col-md-6:first-child {
+        display: none;
+    }
+    .hero {
+        padding: 30px 20px;
+    }
+}
+
+
+.parallax {
+    position: relative;
+    height: 60vh;
+    background: url('parallax-image.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: opacity 10s ease, transform 10s ease;
+}
+
+.parallax.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.parallax.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.history{
+    background-color: #ECE3CE;
+}
+
+
+.footer {
+    background-color: #5F6F65;
+    color: #ECE3CE;
+    padding: 20px 0;
+}
+
+.footer-form .input {
+    border-radius: 5px 0 0 5px;
+}
+
+.footer-form button {
+    border-radius: 0 5px 5px 0;
+    background-color: #ECE3CE;
+    border: none;
+}
+
+.a-link {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.a-link:hover {
+    color: #f8e9d2;
+    text-decoration: underline;
+}
+.image-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.image-container .overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-images{
+    background: url('card-image.jpg') no-repeat center center/cover;
+    width: 100px;
+
+}
