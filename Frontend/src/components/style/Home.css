@@ -43,6 +43,9 @@
     color: white;
     border: none;
 }
+.hero .btn:hover{
+    background-color: #5F6F65;
+}
 
 @media (max-width: 768px) {
     .hero .col-md-6:first-child {
@@ -146,3 +149,4 @@
     width: 100px;
 
 }
+

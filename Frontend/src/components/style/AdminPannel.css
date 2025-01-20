@@ -1,0 +1,45 @@
+.admin-panel {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .admin-sections {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .admin-link {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .admin-link:hover {
+    background-color: #0056b3;
+  }
+  .Admin-back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .Admin-back-button:hover {
+    background-color: #495057;
+    color: #fff;
+  }
+  .Admin-back-button i {
+    margin-right: 5px;
+  }
+  

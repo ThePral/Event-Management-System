@@ -1,0 +1,51 @@
+  .Event-body {
+    background: url('6.png') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  .Event-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #ECE3CE;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #5F6F65;
+    padding: 30px;
+  }
+  .Event-form-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .Event-form-header h3 {
+    margin: 0;
+  }
+  .Event-form input,
+  .Event-form textarea{
+      background-color: #5F6F65;
+      color: #ECE3CE;
+  }
+  .Event-form input:focus,
+  .Event-form textarea:focus{
+      background-color: #5F6F65;
+      color: #ECE3CE;
+  }
+  
+  .Event-current-date {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  .Event-submit-btn {
+    background-color: #5F6F65;
+    color: #ECE3CE;
+    border: none;
+  }
+  .Event-submit-btn:hover {
+    background-image: -o-linear-gradient(#5F6F65, #ECE3CE);
+    background-image: -moz-linear-gradient(#5F6F65, #ECE3CE);
+    background-image: -webkit-linear-gradient(#ECE3CE, #5F6F65);
+    border: none;
+  }
+  

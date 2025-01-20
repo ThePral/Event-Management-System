@@ -128,8 +128,24 @@
     transition: all 0.4s ease;
 }
 .Reset-forms .Reset-form-content .button input:hover{
-    background: rgb(0,0,0);
+    /* background: rgb(0,0,0); */
+    background-image: -o-linear-gradient(#5F6F65, #ECE3CE);
+    background-image: -moz-linear-gradient(#5F6F65, #ECE3CE);
+    background-image: -webkit-linear-gradient( #5F6F65, #ECE3CE);
+    border: none;
 }
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #5F6F65;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+  
 
 
 /* @media (max-width: 730px) {

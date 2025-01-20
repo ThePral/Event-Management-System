@@ -1,0 +1,98 @@
+.Dashboard-body {
+    background-color: #f8f9fa;
+    /* font-family: Arial, sans-serif; */
+}
+  
+.Dashboard-sidebar {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    overflow-y: auto; 
+    width: 200px; 
+}
+  
+.Dashboard-sidebar h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.Dashboard-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.Dashboard-sidebar ul li {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #495057;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.Dashboard-sidebar ul li:hover {
+    background-color: #6c757d;
+}
+  
+.Dashboard-sidebar ul li i {
+    margin-right: 8px;
+}
+  
+.Dashboard-sidebar button {
+    background-color: #495057;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+  
+.Dashboard-sidebar button:hover {
+    background-color: #6c757d;
+}
+  
+.Dashboard-main {
+    margin-left: 200px; 
+    padding: 20px;
+}
+  
+.Dashboard-content-header {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.D-card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.D-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+  
+.D-card p {
+    font-size: 14px;
+    color: #666;
+}
+  
+.D-card button {
+    margin-top: 10px;
+}
+
+.Dashboard-body a{
+    color: #ffffff;
+    text-decoration: none;
+}

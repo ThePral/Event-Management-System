@@ -1,0 +1,39 @@
+.Events-body {
+    background-color: #f8f9fa;
+}
+  
+.Events-h2 {
+    font-size: 24px;
+    color: #343a40;
+    margin-bottom: 15px;
+}
+  
+/* .Events-p {
+    font-size: 16px;
+    color: #495057;
+  } */
+  
+.Events-list-group-item {
+    padding: 15px;
+    font-size: 16px;
+}
+  
+.Events-nav-tabs .nav-link {
+    font-size: 16px;
+    color: #495057;
+}
+  
+.Events-nav-tabs .nav-link.active {
+    background-color: #6c757d;
+    color: #fff;
+}
+  
+.Events-pagination .page-link {
+    color: #6c757d;
+}
+  
+.Events-pagination .page-item.active .page-link {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+  

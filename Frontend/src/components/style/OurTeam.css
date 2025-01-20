@@ -1,0 +1,59 @@
+.Team-body {
+    margin: 0;
+    color: #5F6F65;
+    background-color: #ECE3CE;
+}
+
+.Team-header{
+    background-color: #5F6F65;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    color: #ECE3CE;
+}
+
+@media (max-width: 768px) {
+    .hero .col-md-6:first-child {
+        display: none;
+    }
+    .hero {
+        padding: 30px 20px;
+    }
+}
+
+
+.Team-footer {
+    background-color: #5F6F65;
+    color: white;
+    padding: 20px 0;
+}
+
+.Team-footer-form input {
+    border-radius: 5px 0 0 5px;
+}
+
+.Team-footer-form button {
+    border-radius: 0 5px 5px 0;
+    background-color: #ECE3CE;
+    border: none;
+}
+
+a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #f8e9d2;
+    text-decoration: underline;
+}
+
+.sage-text{
+    color: #5F6F65;
+}
+
+.Team-container section{
+    margin: 30px;
+}

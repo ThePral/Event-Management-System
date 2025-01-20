@@ -15,6 +15,19 @@
   background-image: url('4.png');
   padding: 30px;
 }
+.name-inputs {
+  display: flex;
+  gap: 20px; /* فاصله بین فیلدها */
+}
+
+.name-inputs .input-box {
+  flex: 1; /* هر فیلد یک اندازه مساوی می‌گیرد */
+}
+
+.name-inputs input {
+  width: 100%; /* ورودی‌ها عرض کامل خواهند داشت */
+}
+
 .LoginSignup-container{
   position: relative;
   max-width: 850px;
@@ -36,8 +49,10 @@
   transform-origin: left;
   transform-style: preserve-3d;
 }
+
 .LoginSignup-container #flip:checked ~ .cover{
   transform: rotateY(-180deg);
+  /* transition: 3s; */
 }
  .LoginSignup-container .cover .front,
  .LoginSignup-container .cover .back{
@@ -181,18 +196,23 @@
   padding: 0;
   cursor: pointer;
   transition: all 0.4s ease;
+  /* transition: 1s; */
 }
 .LoginSignup-forms .LoginSignup-form-content .button input:hover{
-  background: rgb(0,0,0);
-  
-
+  /* background: rgb(0,0,0); */
+  background-image: -o-linear-gradient(#5F6F65, #ECE3CE);
+  background-image: -moz-linear-gradient(#5F6F65, #ECE3CE);
+  background-image: -webkit-linear-gradient(#5F6F65 ,#ECE3CE);
+  border: none;
+  color: #5F6F65;
 }
 .LoginSignup-forms .LoginSignup-form-content label{
-  color: rgb(0 , 0 , 238);
+  color: palevioletred;
   cursor: pointer;
 }
 .LoginSignup-forms .LoginSignup-form-content label:hover{
   text-decoration: underline;
+  color: #5F6F65;
 }
 .LoginSignup-forms .LoginSignup-form-content .login-text,
 .LoginSignup-forms .LoginSignup-form-content .sign-up-text{
@@ -202,6 +222,35 @@
 .LoginSignup-container #flip{
   display: none;
 }
+.LoginSignup-forms .LoginSignup-form-content .text a:hover{
+  text-decoration: underline;
+  color:#5F6F65 ;
+}
+
+.back-icon {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.back-link:hover {
+  color: #5F6F65;
+}
+
+.bi-arrow-left-circle {
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+
 @media (max-width: 730px) {
   .LoginSignup-container .cover{
     display: none;
