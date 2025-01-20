@@ -2,7 +2,13 @@ import React, { useState } from "react";
 import "./style/EditProf.css";
 
 const EditProf = () => {
-  const [profileImage, setProfileImage] = useState("4.png");
+  const [profileImage, setProfileImage] = useState("6.png");
+
+  const handlePhoneNumberChange = (event) => {
+    const input = event.target.value;
+    const onlyNumbers = input.replace(/\D/g, "");
+    event.target.value = onlyNumbers;
+  };
 
   const previewImage = (event) => {
     const file = event.target.files[0];
@@ -15,12 +21,21 @@ const EditProf = () => {
     }
   };
 
+  const goBack = () => {
+    window.history.back(); // بازگشت به صفحه قبلی
+  };
+
   return (
     <div className="Reset-body">
       <div className="Reset-container row">
         <div className="Reset-forms col-12 col-sm-10 col-md-8 col-lg-6">
           <div className="Reset-form-content">
             <div className="login-form">
+              {/* دکمه برگشت */}
+              <button onClick={goBack} className="back-button">
+                <i className="fa fa-arrow-left"></i> {/* آیکن برگشت */}
+              </button>
+
               <div className="upload-container">
                 <label htmlFor="profileImage" className="upload-label">
                   <img
@@ -50,7 +65,14 @@ const EditProf = () => {
                     <input type="password" placeholder=" Password :" required />
                   </div>
                   <div className="input-box">
-                    <input type="text" placeholder=" PhoneNumber :" required />
+                    <input
+                      type="tel"
+                      maxlength="11"
+                      pattern="[0-9]*"
+                      placeholder=" PhoneNumber :"
+                      required
+                      onChange={handlePhoneNumberChange}
+                    />
                   </div>
                   <div className="button input-box">
                     <input type="submit" value="Submit" />

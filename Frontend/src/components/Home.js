@@ -28,7 +28,7 @@ function Home() {
 
   return (
     <div className="home-body">
-          <header className="home-header text-white py-3">
+      <header className="home-header text-white py-3">
       <div className="container d-flex justify-content-between align-items-center">
         <div className="logo d-flex align-items-center">
           <img src="logo.png" alt="Logo" className="logo me-2" />
@@ -39,10 +39,10 @@ function Home() {
               <Link to="/" className="nav-link text-white a-link">Home</Link>
             </li>
             <li className="nav-item">
-              <Link to="/our-team" className="nav-link text-white a-link">Our Team</Link>
+              <Link to="/OurTeam" className="nav-link text-white a-link">Our Team</Link>
             </li>
             <li className="nav-item">
-              <Link to="/creating-now" className="nav-link text-white a-link">Creating Now</Link>
+              <Link to="/CreateEvent" className="nav-link text-white a-link">Create Now</Link>
             </li>
           </ul>
         </nav>
@@ -62,15 +62,15 @@ function Home() {
             </div>
             <div className="col-md-6 text-center text-md-start sage-text">
               <h1>Create Your Event</h1>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat rem deserunt,
-                 illo aperiam possimus harum corporis corrupti quo facere iste perferendis in molestiae blanditiis,
-                  voluptas vel. Dolore, voluptatem? Perspiciatis excepturi soluta saepe vero porro.
-                   Distinctio quidem fuga provident autem labore adipisci amet, eius ratione quisquam ipsa vitae
-                    repudiandae exercitationem saepe earum alias! Harum sint dolorem quibusdam ad aut itaque voluptatem eaque soluta deleniti cum?
-                     Aut tempore et impedit animi ut. Quia amet harum voluptatum dolorum aperiam dicta facilis!
-                      Doloremque quas voluptas molestiae temporibus inventore! Facere veniam distinctio alias dicta asperiores
-                       nam vero sed deserunt consectetur. A soluta ipsa assumenda amet.</p>
-              <button className="btn mt-3">Create</button>
+              <p>Managing meetings and participants often requires a dedicated organizer who can handle the necessary notifications and
+                 meeting details. This process can be time-consuming and often depends on someone else.
+                With our platform, you have the power to organize and manage your own meetings with ease.
+                 Whether you're hosting or simply attending, you can stay in the loop on all upcoming sessions.
+                  You can also discover public meetings and join in on those that pique your interest 👀.<br/>
+                If your goal is to host a meeting, there's no better time than now to get started!</p>
+              <button className="btn mt-3"> 
+                 <Link to="/Create">Create</Link>
+              </button>
             </div>
           </div>
         </div>
@@ -126,6 +126,11 @@ function Home() {
 
       <footer className='footer'>
         <div className="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+
+          <div>
+             <h3><i className="fa fa-hourglass-half ">EMS</i></h3>
+          </div>
+
           <div className="footer-links text-center text-md-start">
             <span className="d-block">
               <a className="a-link" href="https://www.instagram.com" target="_blank">
@@ -161,11 +166,6 @@ function Home() {
               </a>
             </span>
           </div>
-
-          <form className="footer-form d-flex mt-4 mt-md-0">
-            <input type="email" className="form-control input" placeholder="Email" />
-            <button className="btn">Send</button>
-          </form>
 
           <div className="logo d-flex align-items-center">
             <img src="logo.png" alt="Logo" className="logo me-2" />

@@ -1,11 +1,18 @@
 import React from "react";
 import "./style/ResetCode.css";
+// import { Link } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
+// پوریا اگه میخوای وفتی کد درست بود بره به هوم، خط 15 و 4 رو از کامنت خارج کن
 const ResetCode = () => {
+
+  // const navigate = useNavigate();
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    // اینجا می‌توانید کد مدیریت ارسال فرم را اضافه کنید
     console.log("Code submitted!");
+    
+    // navigate("/");
   };
 
   return (
@@ -24,7 +31,8 @@ const ResetCode = () => {
                     />
                   </div>
                   <div className="button Reset-input-box">
-                    <input type="submit" value="Submit" />
+                    <input type="submit" value="Submit"  />                    
+
                   </div>
                 </div>
               </form>
