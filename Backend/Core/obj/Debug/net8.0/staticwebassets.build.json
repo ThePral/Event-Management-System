@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "MWTnFsY0X5H0dHOCXq1wMxLnieg1RFcitFZsGS4VdN8=",
+  "Source": "Core",
+  "BasePath": "_content/Core",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "F:\\Uni Sources\\Term 5\\Software Systems Analysis & Design\\Event Management System\\Backend\\IAMService\\IAMService.csproj",
+      "Version": 2,
+      "Source": "IAMService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
